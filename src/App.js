@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import CourtsSection from './components/CourtsSection';
 import ReservationForm from './components/ReservationForm';
 import InfoSection from './components/InfoSection';
+import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
 import './styles/index.css';
 
@@ -17,6 +18,7 @@ function App() {
         <ReservationForm />
         <InfoSection />
       </div>
+      <Testimonial />
       <Footer />
     </div>
   );
